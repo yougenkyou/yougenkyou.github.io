@@ -1,0 +1,59 @@
+body {
+    background-color: #37474F;
+    background-image: url("hacker-2-resized.jpg");
+    background-repeat: no-repeat;
+    background-size: 1700px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 28%;
+    height: 28%;
+}
+
+#centerButtons {
+    text-align: center;
+}
+
+#form {
+    text-align: center;
+}
+
+input {
+    font-family: "Times New Roman", Times, Courier New, Courier, monospace;
+    border: 3px solid #124C70;
+    border-radius: 4px;
+}
+
+button.buttons {
+    background-color: #124C70;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button.options {
+    background-color: pink;
+}
+
+.inputData {
+    height: 50px;
+    width: 300px;
+    font-size: 20pt;
+}
+
+#resultMes {
+    font-family: "Times New Roman", Times, Courier New, Courier, monospace;
+    border: 3px solid #124C70;
+    border-radius: 4px;
+}
+
+textarea {
+    font-size: 20pt;
+}
