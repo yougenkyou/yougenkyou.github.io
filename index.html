@@ -1,1 +1,33 @@
-"CryptoApp" 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="CryptoAppStyle.css">
+</head>
+
+<body>
+    <img src="5.png" alt="logo">
+
+    <div id="form">
+        <form>
+            <input class="inputData" type="text" id="inputMes" placeholder="  Your message...">
+            <br><br>
+            <input class="inputData" id="key" type="text" name="keyForCipher" placeholder="  Key for your message...">
+        </form>
+    </div>
+    <br><br>
+    <div id="centerButtons"><button class="buttons" type="button" id="OTPencode" onclick="OTPencode()">OTP Encrypt</button>
+        <button class="buttons" type="button" id="OTPdecode" onclick="OTPdecode()">OTP Decrypt</button>
+        <button class="buttons" type="button" id="SHA-2" onclick="SHAencode()">SHA-2</button>
+        <button class="buttons" type="button" id="MD5" onclick="MD5decode()">MD5</button>
+
+        <br><br><textarea id="resultMes" cols="50" rows="5" placeholder="  Result goes here..."></textarea>
+    </div>
+
+
+    <script src="CryptoAppCode.js"></script>
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+
+</body>
+
+</html>
