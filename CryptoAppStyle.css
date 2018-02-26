@@ -6,7 +6,7 @@ body {
 }
 
 div.image {
-    content: url("5.png")
+    content: url("5.PNG")
     margin-left: auto;
     margin-right: auto;
     display: block;
