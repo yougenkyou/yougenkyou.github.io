@@ -5,7 +5,8 @@ body {
     background-size: 1700px;
 }
 
-#header {
+div.image {
+    content: url("5.png")
     margin-left: auto;
     margin-right: auto;
     display: block;
