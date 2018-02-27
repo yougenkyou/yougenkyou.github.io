@@ -1,9 +1,5 @@
-var alphabet = "abcdefghijklmnopqrstuvwxyz";
-var message = document.getElementById("inputMes")
-var key = document.getElementById("key");
-
 function OTPencode() {
-    var alphabet = "abcdefghijklmnopqrstuvwxyz";
+    var alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
     var message = document.getElementById("inputMes").value
     var key = document.getElementById("key").value;
     var cipheredMes = "";
@@ -16,7 +12,7 @@ function OTPencode() {
 }
 
 function OTPdecode() {
-    var alphabet = "abcdefghijklmnopqrstuvwxyz";
+    var alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
     var message = document.getElementById("inputMes").value
     var key = document.getElementById("key").value;
     var cipheredMes = "";
