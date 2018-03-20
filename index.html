@@ -2,32 +2,27 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="CryptoAppStyle.css">
+    <link rel="stylesheet" type="text/css" href="trustGameStyle.css">
 </head>
 
-<body>  
-    <div>
-        <img src="https://yougenkyou.github.io/5.PNG" alt="logo">
-    </div>
+<body>
+    <h1>THE GAME OF TRUST</h1>
     <div id="form">
         <form>
-            <input class="inputData" type="text" id="inputMes" placeholder="  Your message...">
-            <br><br>
-            <input class="inputData" id="key" type="text" name="keyForCipher" placeholder="  Key for your message...">
+            <input class="inputData" type="text" onfocus="this.value =''" id="inputMes" placeholder="  Your message...">
         </form>
     </div>
     <br><br>
-    <div id="centerButtons"><button class="buttons" type="button" id="OTPencode" onclick="OTPencode()">OTP Encrypt</button>
-        <button class="buttons" type="button" id="OTPdecode" onclick="OTPdecode()">OTP Decrypt</button>
-        <button class="buttons" type="button" id="SHA-2" onclick="SHAencode()">SHA-2</button>
-        <button class="buttons" type="button" id="MD5" onclick="MD5decode()">MD5</button>
-
-        <br><br><textarea id="resultMes" cols="50" rows="5" placeholder="  Result goes here..."></textarea>
+    <div id="centerButtons"><button class="buttons" type="button" id="getTotal" onclick="getTotal()">Get total points</button>
+        <br>
+        <h3 id="errorMes"> Your number is incorrect, try again!</h3>
+        <br><textarea onfocus="clearContent(this)" id="resultMes" cols="5" rows="1"></textarea>
     </div>
+    <div id="images"><img src="1.png" alt="" />
+        <img src="2.png" alt="" /></div>
 
 
-    <script src="CryptoAppCode.js"></script>
-    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+    <script src="trustGameCode.js"></script>
 
 </body>
 
