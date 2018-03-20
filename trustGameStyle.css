@@ -1,0 +1,76 @@
+body {
+    background-color: #ffffff;
+    background-image: url("background2.png");
+    background-repeat: repeat;
+    background-size: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40pt;
+}
+
+#centerButtons {
+    text-align: center;
+}
+
+#form {
+    text-align: center;
+}
+
+input {
+    font-family: "Times New Roman", Times, Courier New, Courier, monospace;
+    border: 3px solid #263238;
+    border-radius: 4px;
+    text-align: left
+}
+
+button.buttons {
+    background-color: #263238;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#images {
+    text-align: justify;
+}
+
+#images img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+#images:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.inputData {
+    height: 50px;
+    width: 500px;
+    font-size: 18pt;
+}
+
+#resultMes {
+    font-family: "Times New Roman", Times, Courier New, Courier, monospace;
+    border: 3px solid #263238;
+    border-radius: 4px;
+    text-align: center
+}
+
+h3 {
+    visibility: hidden;
+    font-size: 12pt;
+}
+
+textarea {
+    font-size: 40pt;
+}
